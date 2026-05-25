@@ -61,7 +61,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
+    margin: 16px auto 0;
     border-radius: 5px;
     border: 1px solid $btn-border-color;
     text-decoration: none;
@@ -71,7 +71,6 @@
     font-size: 16px;
     font-weight: 700;
     transition: all 0.3s ease-in-out;
-    margin-top: 16px;
     text-transform: uppercase;
 
     &:hover {
