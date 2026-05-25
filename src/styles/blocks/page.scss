@@ -11,4 +11,16 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+
+  * {
+    box-sizing: inherit;
+  }
+
+  *::after {
+    box-sizing: inherit;
+  }
+
+  *::before {
+    box-sizing: inherit;
+  }
 }
